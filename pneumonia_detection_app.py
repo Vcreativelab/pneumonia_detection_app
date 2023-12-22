@@ -26,7 +26,7 @@ import numpy as np
 import torch
 import torchvision.transforms.functional as fn
 from model import PneumoniaClassifier
-from xplainer import Xplainer, cam, visualize
+from xplainer import Xplainer, cam
 
 
 def main():
