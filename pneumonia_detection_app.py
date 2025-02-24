@@ -1,5 +1,5 @@
 """
-Created on Wed Dec 14 18:45 2020
+Created on Wed Dec 14 18:45 2022
 @author: VirtualCreativeLab
 Required Packages: requirements.txt
 CNN Model: model.py
@@ -32,8 +32,8 @@ from xplainer import Xplainer, cam
 def main():
     """Simple Tool for Pneumonia Detection from Chest X-Ray"""
     html_templ = """
-    <div style="background-color:blue;padding:10px;">
-    <h1 style="color:yellow">Pneumonia Detection Tool</h1>
+    <div style="background-color:#E3F2FD;padding:15px;border-radius:10px;">
+        <h1 style="color:#0D47A1;text-align:center;">Pneumonia Detection Tool</h1>
     </div>
     """
 
