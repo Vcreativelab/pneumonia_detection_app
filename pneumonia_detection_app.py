@@ -39,7 +39,16 @@ def main():
 
 
     st.markdown(html_templ, unsafe_allow_html=True)
-    st.write("A simple proposal for Pneumonia Diagnosis powered by Deep Learning and Streamlit")
+    st.markdown(
+    """
+    <p style="text-align:center; font-size:16px; color:#333;">
+        This tool leverages Deep Learning and Explainable AI (XAI) techniques, including Class Activation Maps (CAM),  
+        to diagnose pneumonia from chest X-rays. It also provides image enhancement options, such as contrast and  
+        brightness adjustments, for improved analysis.
+    </p>
+    """,
+    unsafe_allow_html=True
+)
 
 
     st.sidebar.image("pneumonia.png", width=300)
